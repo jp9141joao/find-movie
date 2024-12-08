@@ -19,8 +19,3 @@ let Main = async ()=>{
         document.getElementById("Img").src = anwserJson.Poster
     }
 }
-
-let str = "Apple, Banana, Kiwi";
-let part = str.slice('kiwi');
-
-console.log(part)
