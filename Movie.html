@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie</title>
+        <script src="Movie.js"></script>
+        <link rel="stylesheet" href="Movie.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <h1>MyMovies</h1>
+            <span></span>
+            <div id="N1">
+                <label for="Nome"><strong>Nome do Filme</strong></label>
+                <label for="Ano"><strong>Data de Lançamento</strong></label>
+            </div>
+            <div id="N2">
+                <input type="text" id="Nome">
+                <input type="text" id="Ano" readonly>
+            </div>
+            <div id="N3">
+                <label for="Tempo"><strong>Duração</strong></label>
+                <label for="Genero"><strong>Genero</strong></label>
+            </div>
+            <div id="N4">
+                <input type="text" id="Tempo" readonly>
+                <input type="text" id="Genero" readonly>
+            </div>
+            <div id="N5">
+                <label for="Ator"><strong>Atores</strong></label>
+                <label for="Bilheteria"><strong>Bilheteria</strong></label>
+            </div>
+            <div id="N6">
+                <input type="text" id="Ator" readonly>
+                <input type="text" id="Bilheteria" readonly>
+            </div>
+            <div id="N7">
+                <p id="Console"></p>
+            </div>
+            <div>   
+                <input type="button" value="Search" id="N9" onclick="Main()">
+            </div>
+            <div id="N8">
+                <img src="" id="Img">
+            </div>
+        </form>
+    </body>
+</html>
