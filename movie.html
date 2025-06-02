@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures compatibility with older versions of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive design for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Movie</title>
+    
+    <!-- Link to the JavaScript file that contains the logic for fetching movie data -->
+    <script src="movie.js"></script>
+    
+    <!-- Link to the CSS file for styling the form -->
+    <link rel="stylesheet" href="movie.css">
+    
+    <!-- Google Fonts preconnect for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importing 'Roboto' font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <!-- Main title of the application -->
+        <h1>MyMovies</h1>
+
+        <!-- Input section for Movie Name and Release Year -->
+        <div>
+            <!-- Label for movie name input -->
+            <label for="name"><strong>Movie Name</strong></label>
+            <!-- Label for movie release year -->
+            <label for="year"><strong>Release Date</strong></label>
+        </div>
+        <div>
+            <!-- Input for entering the movie name -->
+            <input type="text" id="name">
+            <!-- Input for displaying the release year, read-only since it's filled automatically -->
+            <input type="text" id="year" readonly>
+        </div>
+
+        <!-- Input section for Runtime and Genre -->
+        <div>
+            <label for="runTime"><strong>Runtime</strong></label>
+            <label for="genre"><strong>Genre</strong></label>
+        </div>
+        <div>
+            <input type="text" id="runTime" readonly>
+            <input type="text" id="genre" readonly>
+        </div>
+
+        <!-- Input section for Actors and Box Office -->
+        <div>
+            <label for="actor"><strong>Actors</strong></label>
+            <label for="boxOffice"><strong>Box Office</strong></label>
+        </div>
+        <div>
+            <input type="text" id="actor" readonly>
+            <input type="text" id="boxOffice" readonly>
+        </div>
+
+        <!-- Paragraph for displaying error messages or status -->
+        <div>
+            <p id="console"></p>
+        </div>
+
+        <!-- Button to trigger the search function -->
+        <div>
+            <input type="button" value="Search" onclick="Main()">
+        </div>
+
+        <!-- Section to display the movie poster -->
+        <div>
+            <img id="img">
+        </div>
+    </form>
+</body>
+</html>

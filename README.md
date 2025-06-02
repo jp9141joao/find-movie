@@ -1,58 +1,61 @@
 # **Find Movie**
 
-Este projeto permite que você pesquise informações sobre filmes usando a API OMDB. Ao inserir o nome de um filme, o aplicativo exibe informações como título, ano de lançamento, duração, gênero, atores e bilheteira, além de exibir o pôster do filme.
+This project allows you to search for information about movies using the OMDB API. By entering a movie title, the application displays details such as title, release year, runtime, genre, actors, and box office revenue, as well as showing the movie poster.
 
 ---
 
-## **Funcionalidades**
+## **Features**
 
-- **Pesquisa de Filme:** Insira o nome de um filme e clique para buscar informações.
-- **Exibição de Dados:** O aplicativo exibe o título, ano, tempo de duração, gênero, elenco, bilheteira e o pôster do filme.
-- **Mensagem de Erro:** Caso o filme não seja encontrado, uma mensagem será exibida informando o erro.
-
----
-
-## **Como Funciona**
-
-1. O usuário insere o nome do filme no campo de pesquisa.
-2. O aplicativo faz uma requisição à API OMDB usando o nome do filme.
-3. As informações sobre o filme são exibidas na tela, incluindo o pôster.
-4. Se o filme não for encontrado, uma mensagem será mostrada indicando que o filme não foi encontrado.
+* **Movie Search:** Enter the name of a movie and click to fetch its information.
+* **Data Display:** The app shows the movie’s title, year, runtime, genre, cast, box office, and poster.
+* **Error Message:** If the movie is not found, an error message will be displayed.
 
 ---
 
-## **Exemplo de Uso**
+## **How It Works**
 
-1. O usuário digita o nome de um filme na barra de pesquisa, como "Inception".
-2. As informações do filme "Inception" são recuperadas e exibidas: 
-   - Título: Inception
-   - Ano: 2010
-   - Tempo: 148 minutos
-   - Gênero: Ação, Ficção Científica
-   - Atores: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page
-   - Bilheteira: $829,895,144
-   - Pôster do Filme.
+1. The user enters the movie title in the search field.
+2. The app sends a request to the OMDB API using the movie name.
+3. The movie information is displayed on the screen, including the poster.
+4. If the movie is not found, a message is shown indicating that the movie was not found.
 
 ---
 
-## **Tecnologias Utilizadas**
+## **Usage Example**
 
-- **HTML** para estrutura da página.
-- **CSS** para o design e estilização da interface.
-- **JavaScript** para manipulação da lógica do programa e requisições à API.
-- **API OMDB** para buscar informações sobre filmes.
+1. The user types a movie name in the search bar, such as "Inception".
+2. The information for the movie "Inception" is retrieved and displayed:
+
+   * Title: Inception
+   * Year: 2010
+   * Runtime: 148 minutes
+   * Genre: Action, Science Fiction
+   * Actors: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page
+   * Box Office: \$829,895,144
+   * Movie Poster
 
 ---
 
-## **Como Executar**
+## **Technologies Used**
 
-1. Clone ou baixe o código-fonte para o seu computador.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Digite o nome de um filme no campo de pesquisa e clique para buscar as informações.
-   
+* **HTML** for the page structure.
+* **CSS** for the design and interface styling.
+* **JavaScript** for program logic and API requests.
+* **OMDB API** for fetching movie information.
+
 ---
 
-## **Observações**
+## **How to Run**
 
-- O projeto utiliza a [OMDB API](http://www.omdbapi.com/) para buscar as informações dos filmes. Você pode precisar de uma chave de API, que pode ser obtida em [OMDB API](http://www.omdbapi.com/apikey.aspx).
-- O código foi desenvolvido para funcionar em navegadores modernos.
+1. Clone or download the source code to your computer.
+2. Open the `index.html` file in your browser.
+3. Type a movie name into the search field and click to retrieve the information.
+
+---
+
+## **Notes**
+
+* This project uses the [OMDB API](http://www.omdbapi.com/) to fetch movie information. You may need an API key, which can be obtained at [OMDB API](http://www.omdbapi.com/apikey.aspx).
+* The code was developed to work in modern browsers.
+
+---

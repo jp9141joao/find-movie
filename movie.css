@@ -1,0 +1,98 @@
+/* Global reset and font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333333;
+}
+
+/* General div spacing for lines */
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+/* Labels */
+label {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: #555555;
+}
+
+/* Inputs */
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    margin-right: 0.5rem; /* space between inputs */
+}
+
+/* Remove last margin for last input in line */
+form div input[type="text"]:last-child {
+    margin-right: 0;
+}
+
+/* Highlight the name input */
+#Nome {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid #007BFF;
+    background-color: #eef6ff;
+}
+
+/* Search button */
+input[type="button"] {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error or status message */
+#console {
+    color: red;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Poster image */
+#img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
